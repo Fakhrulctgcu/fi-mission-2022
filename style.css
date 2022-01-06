@@ -1,6 +1,6 @@
 body{
      font-family: 'Poppins', sans-serif;
-     margin: 4% 25px;
+     margin: 4% 100px;
 }
 h1{
  font-size: 30px;
@@ -17,6 +17,9 @@ width: 50%;
 .half-width img{
 width: 60%;
 }
+.three-part{
+width: 50%;
+}
 .link-button{
 text-decoration: none;
 background-image: linear-gradient(orange, tomato);
@@ -25,7 +28,33 @@ color: white;
 border-radius: 5%;
 }
 .top-banner{
-background-image: url(images/shapes/shape-2.png);
+background-image: url(images/shapes/shape-5.png);
 
 margin: 0;
+}
+.Our Mission{
+background-image: url(images/shapes/shape-5.png);
+margin: 0px;
+}
+.row{
+display: flex;
+}
+.column{
+flex: 30%;
+padding: 2px ;
+}
+.column {
+     float: left;
+     width: 33.33%;
+     padding: 5px;
+   }
+.row::after {
+     content: "";
+     clear: both;
+     display: table;
+}
+.flexible-container{
+     display: flex;
+     margin-bottom: 150px;
+
 }
